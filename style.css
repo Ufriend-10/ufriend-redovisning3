@@ -1,0 +1,13 @@
+
+body { margin:0; font-family:Arial,sans-serif; background:#111; color:#eee; }
+header { display:flex; justify-content:space-between; align-items:center; padding:20px; background:#1A1A1A; }
+.logo img { height:40px; }
+nav a { color:#eee; margin:0 10px; text-decoration:none; }
+.btn { background:#00BFFF; color:#111; padding:10px 20px; border:none; cursor:pointer; }
+.hero { height:60vh; display:flex; flex-direction:column; justify-content:center; align-items:start; padding:40px; background:#1A1A1A; }
+.hero h1 { font-size:3em; margin:0; }
+.hero p { font-size:1.2em; margin:20px 0; color:#ccc; }
+section { padding:60px 40px; }
+.services { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+.service-box { background:#1f1f1f; padding:20px; border-radius:8px; }
+footer { padding:20px 40px; background:#0a0a0a; color:#777; text-align:center; }
